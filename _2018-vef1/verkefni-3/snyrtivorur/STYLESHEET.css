@@ -1,0 +1,111 @@
+* { 
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+}
+body {
+	max-width:100em;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas: 
+		"header topnav" 
+		"content content"
+		"below below"
+		"footer footer";
+}
+header {
+	grid-area: header;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.topnav{
+	grid-area: topnav;
+	background-color: brown;
+}
+.content {
+	grid-area: content;
+}
+footer{
+	grid-area: footer;
+	color: darkblue;
+	background-color: black;
+}
+.midja{
+	grid-area: midja;
+	box-sizing: border-box;
+	border: 50px brown;
+	background-color: white;
+	font-family: "Serif"
+}
+.vinstri{
+	grid-area: vinstri;
+	box-sizing: border-box;
+	border: 100px orange;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.haegri{
+	grid-area: haegri;
+	box-sizing: border-box;
+	border: 50px orange;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.below{
+	grid-area: below;
+	box-sizing: border-box;
+	border: 5px green;
+	background-color: gray;
+	text-align: center;
+
+}
+.topmenu{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	list-style-type: none;
+	margin
+}
+.content{
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-areas: "vinstri midja haegri"; 
+}
+p, h4{
+	padding: 0.5em 1em;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+	padding-bottom: 0;
+}
+p{
+	margin-top: 0;
+}
+header{
+	text-align: center;
+}
+.topnav{
+	background-color: brown;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+.topmenu a{
+	text-decoration-style: none;
+	color: yellow;
+	padding: none;
+}
+.topmenu a:hover, .topmenu a:active{
+	color: yellow;
+}
+
+.font{
+	padding: 0.5em;
+}
+.link{
+	text-align: center;
+}
+nav{
+	background-color: black;
+	color: white;
+}
